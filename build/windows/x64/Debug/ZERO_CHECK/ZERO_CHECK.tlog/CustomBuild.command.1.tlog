@@ -1,0 +1,10 @@
+^D:\SEMESTER 6\PADIKU\BUILD\WINDOWS\CMAKEFILES\B6793A0B2FEC8065ECB67BE225E7E4EB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Semester 6/padiku/windows" "-BD:/Semester 6/padiku/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Semester 6/padiku/build/windows/padiku.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+^D:\SEMESTER 6\PADIKU\BUILD\WINDOWS\CMAKEFILES\94C340AE20F259E065B74E879CE131E3\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Aplikasi\flutter_windows_2.5.0-stable\flutter "PROJECT_DIR=D:\Semester 6\padiku" FLUTTER_ROOT=D:\Aplikasi\flutter_windows_2.5.0-stable\flutter "FLUTTER_EPHEMERAL_DIR=D:\Semester 6\padiku\windows\flutter\ephemeral" "PROJECT_DIR=D:\Semester 6\padiku" "FLUTTER_TARGET=D:\Semester 6\padiku\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Semester 6\padiku\.dart_tool\package_config.json" D:/Aplikasi/flutter_windows_2.5.0-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SEMESTER 6\PADIKU\BUILD\WINDOWS\CMAKEFILES\92AD824864722163A5DB7B6CCCD5A047\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SEMESTER 6\PADIKU\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Semester 6/padiku/windows" "-BD:/Semester 6/padiku/build/windows" --check-stamp-file "D:/Semester 6/padiku/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
